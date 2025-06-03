@@ -166,7 +166,7 @@ p{
     z-index: 1;  
 }
 .section-2-ad img{
-    height: 350px;
+    height: 200px;
     border-radius: 12px;  
    
 }
@@ -219,7 +219,7 @@ p{
     height: 50px;
     width: 50px;
     right: 0px;
-    top: 90%;
+    top: 30%;
     z-index: 2;
     display: flex;
     justify-content: center; /* 水平居中 */
