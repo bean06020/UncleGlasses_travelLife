@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+h1,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html body{
+    background-color: gainsboro;
+}

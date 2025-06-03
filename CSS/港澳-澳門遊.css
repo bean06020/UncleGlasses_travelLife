@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 微軟正黑體;
+    font-weight: bold; 
+}
+
+h2{
+    color:black;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size:30px;
+    letter-spacing: 5px;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    letter-spacing: 5px;    
+}
+
+.CONTAINER{
+    display: block;
+    margin: auto;
+    width: 1200px;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip-box {
+    position: absolute;
+    top: 0;
+    right: 105%;
+    width: 120px;
+    background-color: #90E0EF;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    white-space: nowrap;
+    padding: 10px 12px;
+    border-radius: 8px;    
+    z-index: 10;    
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease;
+  }
+  
+  /* 顯示 Tooltip */
+  .tooltip-container:hover .tooltip-box {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  /* 連結樣式 */
+  .tooltip-box a {
+    color: #000000;
+ 
+  }
+  
+.navbar{
+    height: 40px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom:10px ;
+}
+.navbar-col-1{
+    margin-top: 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.navbar-col-3{
+    width: 300px;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+
+.section-1{
+        height: 100px;
+        width: 1200px;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius: 10px ;
+        background-color:#CAF1F8 ;
+        /* border: 1px solid #000; */
+        background-position: 0px,500px;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+}
+.sec-1-img{
+    background-image: url(../image/glasses.jpg);
+    height: 80px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block
+   
+}
+.sec-1-title{
+    font-size: 20px;
+    height: 100px;
+}
+.sec-1-title p{
+    margin: 20px 10px 4px 0; 
+}
+.sec-1-title h2{
+    margin: 0;
+
+}
+
+
+
+.CONTAINER-2{
+    display: block;
+    margin: auto;
+    width: 1100px;
+        /* border: 1px solid #000; */
+
+}
+.section-2,.section-5{
+    margin-top: 20px;
+    height: 150px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px ;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px ;
+    background-color:#90E0EF ;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+  
+   }
+
+.title{
+    color: #fff;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 15%;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.word{
+    color: #000;
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 2;
+   }
+.sec-2.word{
+    line-height: 1.5;
+}
+
+.section-3{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.section-4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.sec-4.title{
+    color: #000;
+    white-space: nowrap; 
+}
+.sec-4-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+.sec-4-1 img{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+   }
+.sec-4-2.word{
+    width: 70%;
+    align-self: center;
+    /* display: inline-block;    */
+}
+.section-5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-5.title{
+    color: #000;
+}
+
+/* .section-2-ad{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    top: 60%;             
+    right:0;             
+    transform: translateY(-50%);  
+    z-index: 1;  
+}
+.section-2-ad img{
+    height: 350px;
+    border-radius: 12px;  
+   
+}
+.section-2-ad img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  } */
+
+  
+.navbar-btm{
+    background-color: #CAF1F8;
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px ;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btm-image{
+    width: 200px;
+    height: 100px;
+    background-image:url(../image/van&nature.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    display: flex;
+    justify-content: left;
+     
+    }
+.navbar-btm-link{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* 讓連結之間有間距 */
+    flex-wrap: wrap; /* 小螢幕時可以換行 */
+    align-items:center; 
+    
+    letter-spacing:5px ;
+    font-size: 18px;
+} 
+.btntop{
+    position: fixed;
+    border-radius: 40%;
+    background-color: rgb(235, 227, 227);
+    height: 50px;
+    width: 50px;
+    right: 0px;
+    top: 90%;
+    z-index: 2;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}

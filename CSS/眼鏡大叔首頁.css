@@ -1,0 +1,241 @@
+*{
+    position: relative;
+    font-family: "微軟正黑體";
+    font-weight: bolder;
+    /* border:1px solid #000; */
+}
+a{
+    text-decoration: none;
+    color: #000;
+    }
+html, body {
+     height: 100%; /* 定義根元素高度 */
+     margin: 0; /* 確保沒有外邊距干擾 */
+    }
+.wrapper{
+    /* height: 100%;
+    width: 100%; */
+    min-height: 100%; /* 讓 `.wrapper` 至少等於視窗高度 */
+    display: flex;    /* 啟用 flex 排版 */
+    flex-direction: column; /* 垂直排列 */
+}
+.CONTAINER{
+    display: block;
+    margin: auto;
+    width: 1200px;
+}
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip-box {
+    position: absolute;
+    top: 0;
+    right: 105%;
+    width: 130px;
+    background-color: #90E0EF;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    white-space: nowrap;
+    padding: 10px 12px;
+    border-radius: 8px;    
+    z-index: 10;    
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease;
+  }
+  
+  /* 顯示 Tooltip */
+  .tooltip-container:hover .tooltip-box {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  /* 連結樣式 */
+  .tooltip-box a {
+    color: #000000;
+ 
+  }
+.navbar{
+    height: 40px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom:10px ;
+}
+.navbar-col-1{
+    margin-top: 10px;
+    font-size: 24px;
+
+    display: inline-block;
+}
+
+.navbar-col-3{
+    width: 300px;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.blue{
+    height: 100px;
+    width: 1200px;
+    background-color: #CAF1F8;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px ;
+
+    display: flex;
+        align-items: center;
+        gap: 10px; /* 圖片和文字之間留點距離 */
+}
+.sec-1-img{
+    background-image: url(../image/glasses.jpg);
+    height: 80px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block
+   
+}
+.blue h2{
+    display: inline-block;
+    color:black;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size:30px;
+    
+}
+.blnk{
+    /* border: 1px solid #000; */
+    height: 400px;
+    width: 1200px;
+    /* display: block; */
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+.blnk .img{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    /* border: 1px solid #000; */
+}
+.blnk .img img{
+    height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   position: absolute;
+   right: 30px;
+}
+.blnk .info{
+    display: inline-block;
+    width: 500px;
+}
+.words{
+    font-size: 18px;
+    /* font-family: "微軟正黑體";
+    font-weight: 800; */
+    padding-left: 50px;
+}
+
+.flex-col{
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 1200px;
+    /* border: 1px solid #000; */
+
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.flex-col.h2{
+    /* position: absolute;
+    left: 30px;
+    font-size: 24px; */
+    letter-spacing: 10px;
+}
+.flex-col-2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.flex-col-2 img{
+    height: 300px;
+    width: 244px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.flex-col-2 img:active{
+    transform: translate(0,-5px);
+}
+/* .info3 {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    overflow: visible;
+} */
+/* .info3 a {
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 244px;
+    /* text-align: center; */
+
+.btntop{
+    position: fixed;
+    border-radius: 40%;
+    background-color: rgb(235, 227, 227);
+    height: 50px;
+    width: 50px;
+    right: 0px;
+    top: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+.bottom{
+    height: 100px;
+    width: 1200px;
+    background-color: #CAF1F8;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px ;
+    margin-top: 100px;
+}
+.bottom img{
+    position: absolute;
+    bottom: -20px;
+    height: 150px;
+}
+.bottom a{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.bottom .b4{
+    position: absolute;
+    left: 300px;
+    bottom: 30px;
+}
+.bottom .b5{
+    position: absolute;
+    left: 500px;
+    bottom: 30px;
+}
+.bottom .b6{
+    position: absolute;
+    right: 300px;
+    bottom: 30px;
+}
