@@ -176,31 +176,38 @@ p{
 .section-3{
     margin-top: 50px;
     margin-left: 50px;
+    /* border: 2px solid #000; */
 }
-.section-4{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.card-pic{
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    background-position: center ;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    background-repeat: no-repeat;
+    margin: auto;
+    /* border: #fff solid 5px; */
+    border-radius: 10px;
+}
 
+.swiper {
+  width: 100%;
+  max-width: 600px; /* swiper 寬度 */
+  margin: 50px auto;
+  position: relative;
+  /* border: 2px solid #000; */
 }
-.sec-4.title{
-    color: #000;
-    white-space: nowrap; 
-}
-.sec-4-card{
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
 
+/*  slide 強制不要併排 */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sec-4-1 img{
-    width: 300px;
-    margin-top: 50px;
-    margin-left: 50px;
-   }
-.sec-4-2.word{
-    width: 70%;
-    align-self: center;
-    /* display: inline-block;    */
+.swiper-button-prev,
+.swiper-button-next {
+    width: 40px;
+    height: 40px;
 }
 .section-5{
     margin-top: 50px;

@@ -6,6 +6,10 @@
   <title>眼鏡大叔在澳門</title>
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/港澳-澳門遊.css">
+  <!-- Swiper CSS  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+
 </head>
 
 <body>
@@ -84,27 +88,31 @@
                 <br>
             </div>
         </div>
-       
-        <hr>
-        <div class="section-4">
-            <div class="sec-4 title">DAY 1 (7/12)  天氣 ☀️</div>
-            <div class="sec-4-card">
-                <div class="sec-4-1">
-                    <img src="./image/港澳/澳門美食.jpg" alt="">
-                </div>
-                <div class="sec-4-2 word">
-                    中午12:10從台中出發<br>
-                    約一小時半到澳門<br>
-                    通關後搭輕軌前往飯店<br>
-                    <br>
-                    澳門公車票價統一為澳門幣 6 元，<br>
-                    不分搭乘距離，上車付費<br>
-                    一律從前門上車、後門下車<br>
-                    公車上不找零，記得要準備好零錢！<br>
-                    如果手邊剛好沒有澳門幣，也可以用港幣付款<br>
+      <!-- 輪播 -->
 
-                </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-pic" style="background-image: url('./image/港澳/MO-vince-hotel.jpg');"></div>
             </div>
+            <div class="swiper-slide">
+              <div class="card-pic" style="background-image: url('./image/港澳/MO-rose-churge-outside.jpg');"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-pic" style="background-image: url('./image/港澳/MO-rose-churge.jpg');"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-pic" style="background-image: url('./image/港澳/MO-big38.jpg');"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-pic" style="background-image: url('./image/港澳/MO-street-views.jpg');"></div>
+            </div>
+          </div>
+
+          <!-- 圓點/箭頭 -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
 
         <div class="section-5">
@@ -117,23 +125,11 @@
                     很適合時間不多預算也有限的人來個短暫小旅行<br>
                 </div>
             </div>
-
-
-
-
-       
-                  
+                 
     </div>   
     </div>
           
-       
-
-        <!-- <div class="section-2-ad">
-          <a href="https://www.klook.com/zh-TW/?campaignid=10500083929&adgroupid=105596043484&targetid=aud-922165703925%3Akwd-3063664836&matchtype=e&device=c&creative=556873922332&extensionid=&keyword=klook&loc_interest_ms=&loc_physical_ms=9198563&network=g&utm_content=campaignid_10500083929_adgroupid_105596043484&gad_source=1&gbraid=0AAAAACa_CWzoq1ZrIxZNexEFNdTQmR7Im&gclid=Cj0KCQjwzYLABhD4ARIsALySuCTSkyPofOA_92a9-5ZBOVSL4yPW8wew6FFN2ZEqAIcaIUZxhpa3qhEaAgcXEALw_wcB" target="_blank">
-            <img src="./image/ad.jpg" alt="Klook">
-          </a>     
-        
-        </div> -->
+    
     </div>
 
       </div>       
@@ -162,7 +158,10 @@
   </div>
 </div>
 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./JS/js.js"></script>
+
 
  
 </body>
