@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
 
-  /輪播圖片JS/ 
+  // /輪播圖片JS/ 
 const swiper = new Swiper('.mySwiper', {
     loop: true,
     slidesPerView: 1, // 每次只顯示一張
@@ -28,3 +28,4 @@ const swiper = new Swiper('.mySwiper', {
     disableOnInteraction: false, // 互動後仍繼續自動播放
   },
   });
+
