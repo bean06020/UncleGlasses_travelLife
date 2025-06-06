@@ -77,8 +77,6 @@ p{
     font-size: 30px;
     display: block; /* 改成 block 讓子元素自然換行 */
 }
-
-
 #myVueBox p {
   position: fixed;
   top: 50%; left: 50%; 
@@ -92,9 +90,11 @@ p{
   width: 200px;
   border-radius: 6px;
   z-index: 10;
-  display: inline-block;
+  display: none;}
 
-   /* 文字置中 */
+  /* 文字置中 */
+#myVueBox p.showBox {
+  display: flex;
   display: flex;
   justify-content: center;   /* 水平置中 */
   align-items: center;       /* 垂直置中 */
