@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('click triggered');
         this.showMessage = true;
         setTimeout(() => {
-          window.location.href = './眼鏡大叔首頁.html';
+          window.location.href = './index.html';
         }, 1500);
       }
     },
