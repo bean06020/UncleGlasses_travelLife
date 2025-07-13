@@ -197,7 +197,7 @@ html, body {
     height: 50px;
     width: 50px;
     right: 0px;
-    top: 50%;
+    top: 80%;
     z-index: 2;
     display: flex;
     justify-content: center; 
