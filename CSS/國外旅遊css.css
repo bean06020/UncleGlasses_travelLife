@@ -111,14 +111,13 @@ p{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    border: #000 1px solid;
 }
 .section-2-p{
      width: 600px;
      line-height: 2;
      align-items: middle;
      padding-left: 50px;
-     /* font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; */
+     border: 2px solid #000;
    
    }
 

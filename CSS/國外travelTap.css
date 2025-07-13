@@ -1,0 +1,75 @@
+/* tapppp toppppp */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+/* 單一頁籤按鈕 */
+.tab-btn {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #CAF1F8;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    border-right: 1px solid #e0e0e0;
+}
+
+.tab-btn:last-child {
+    border-right: none;
+}
+
+/* 當滑鼠滑過頁籤時的動畫 */
+.tab-btn:hover,
+.tab-btn.active {
+    background-color: #fff;
+    color: #007BBA;
+    border-bottom: 3px solid #007BBA;
+    font-weight: bold;
+}
+
+/* 內容區塊的外框 */
+.tab-content {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* 卡片裡的圖片樣式 */
+.card-pic {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin: 20px 10px 10px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#japan .card-pic {
+    background-position: 50% 20%;
+}
+/* 設定卡片內的連結 */
+.section-2-tap a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.section-2-tap a:hover {
+    text-decoration: underline;
+}
